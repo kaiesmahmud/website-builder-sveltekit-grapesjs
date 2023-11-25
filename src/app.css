@@ -7,6 +7,12 @@
 
 body{
     font-family: 'Nunito Sans', sans-serif;
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+    min-height: 100vh;
+    width: 100vw;
+    color: white;
+    max-width: 4000px;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Poppins', sans-serif;
