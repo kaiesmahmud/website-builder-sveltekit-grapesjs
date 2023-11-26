@@ -19,7 +19,7 @@
         }
     }
 </script>
-<div class="md:w-[60%] flex flex-col min-h-[30vh] items-center justify-center gap-5 bg-white/10">
+<div class="w-full md:w-[60%] flex flex-col min-h-[30vh] items-center justify-center gap-5 bg-white/10">
     <div class="text-center ">
       <h3 class="font-semibold text-xl md:text-3xl">Create Your First Website</h3>
     </div>
@@ -27,4 +27,4 @@
       <input bind:value={websiteName} class={`${inputStyle}`} type="text" placeholder="website Name" />
       <button on:click={handleNewWebsiteName} class="bg-green-500/10 hover:bg-green-500/50 p-2 md:p-5 rounded text-sm md:text-md">Create</button>
     </div>
-  </div>
+</div>
