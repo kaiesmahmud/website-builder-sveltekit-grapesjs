@@ -1,14 +1,8 @@
 <script>
-	import { newWebsiteName } from './../lib/store/store.js';
-    import { onMount } from "svelte";
     import "../app.css";
-  
-    onMount(()=>{
-       let userData = {
-       username: $newWebsiteName,
-        }
-        console.log(userData)
-    })
+    import Footer from '../lib/components/Footer.svelte';
   </script>
+  <div class="min-h-screen p-3">
     <slot />
-  
+    <Footer/>
+  </div>
