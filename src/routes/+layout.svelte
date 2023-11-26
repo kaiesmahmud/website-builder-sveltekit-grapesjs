@@ -1,5 +1,14 @@
 <script>
+	import { newWebsiteName } from './../lib/store/store.js';
+    import { onMount } from "svelte";
     import "../app.css";
-  </script>
   
-  <slot />
+    onMount(()=>{
+       let userData = {
+       username: $newWebsiteName,
+        }
+        console.log(userData)
+    })
+  </script>
+    <slot />
+  
