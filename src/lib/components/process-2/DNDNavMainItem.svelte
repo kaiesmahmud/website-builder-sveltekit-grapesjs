@@ -21,10 +21,10 @@
         {/if}
     </div>
     {#if showDropdown}
-        <div class=" md:absolute md:top-[100%] mt-3 p-3 left-0 w-full bg-white/10">
+        <div class=" md:absolute md:top-[100%] mt-3 p-3 left-0 w-full bg-white/50">
             {#if nodes[mainItem.id]?.items?.length > 0 }
                 {#each nodes[mainItem.id]?.items as item }
-                    <div class="my-2 bg-black/10 p-2">
+                    <div class="my-2 bg-black/80 p-2 rounded">
                         <p>{nodes[item.id]?.name || "Node not Exist"}</p>
                     </div>
                 {/each}
