@@ -1,8 +1,15 @@
 <script>
+	import DND from './../lib/components/process-2/DND.svelte';
+	import ParentDND from './../lib/components/process-2/ParentDND.svelte';
+	import { MenuListResult } from './../lib/store/store.js';
 	import NewWebsiteNameComponent from '../lib/components/process-1/NewWebsiteNameComponent.svelte';
-    import { processStep } from '../lib/store/store';
+   import { processStep } from '../lib/store/store';
+   import { writable } from 'svelte/store';
 
-  
+
+    
+	// eport let MenuListResult.set()
+	
 </script>
 
 
@@ -16,8 +23,8 @@
       <NewWebsiteNameComponent/>
     </div>
   {:else if  $processStep == 2}
-     <!-- Second Step Component here -->
-     <h1>Step 2 Now</h1>
+     <!-- <h1>Step 2 Now</h1> -->
+     <DND/>
   {:else if  $processStep == 3}
      <!-- Third Step Component here -->
   {:else if  $processStep == 4}
