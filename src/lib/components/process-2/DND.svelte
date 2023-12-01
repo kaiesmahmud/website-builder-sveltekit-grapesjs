@@ -13,7 +13,7 @@ const handleEditNavbar = ()=> {
 </script>
 
 
-<div class="w-[100%] min-h-screen">
+<div class="w-[100%] ">
 	<div class=" flex flex-col items-start md:items-center  justify-center gap-10 py-10 px-3">
 		<h3 class="p-2 font-bold text-4xl lg:text-8xl text-transparent capitalize bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
 			NavBar Editor
@@ -24,7 +24,7 @@ const handleEditNavbar = ()=> {
 			</div>
 			<div class="w-[100%] flex items-center justify-center gap-5">
 				<button class="bg-green-500/20 p-5 rounded  " on:click={handleEditNavbar}>Edit Navbar</button>
-				<button class="bg-green-500/20 p-5 rounded  " on:click={handleEditNavbar}>Next slide</button>
+				<button class="bg-green-500/50 p-5 rounded  " on:click={handleEditNavbar}>Next Step</button>
 			</div>
 		{/if}
 		{#if $editNavbar}
