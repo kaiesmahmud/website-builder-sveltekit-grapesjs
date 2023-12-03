@@ -1,10 +1,7 @@
 import { writable } from "svelte/store";
 
-
 export let newWebsiteName = writable("");
-export let processStep = writable(1);
 
-export let userData = writable("");
 let dummyData =  {
     id: "", // website name
     home: "", //websitename
@@ -18,7 +15,7 @@ let dummyData =  {
     allPageData: [] , // from custom navbar to custom UI
     footerHtml: "Default Footer Design"
 }
-
+// ==============Menulists Data==================
 let nodes = {
     node1:{
             name:'Home',
@@ -60,8 +57,16 @@ let nodes = {
 
 }
 export let MenuListResult = writable(nodes)
+// ============User Data ========================
+//websiteName   :   String            =>  input
+//navbarData    :   MenuListResult    =>  Obj
+//navStyle      :   1/2/3/4           =>  number
+//coursesStyle  :   1/2/3/4           =>  number
+//homeBodyHtml  :   Default Design    =>  "Html String"
+//footerData    :   Default           =>  "Html String"
+//allPagesData  :   Array of Obj      =>  { page_id, page_name, page_data }
 export let UserAllData = writable({})
 
 
-//==========New Plan ===========
+//==========New Plan ============================
 export let ShowProcess = writable("step-1")

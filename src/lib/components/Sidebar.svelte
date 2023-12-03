@@ -5,8 +5,9 @@
         {title:"Website Name & Logo", value:"step-1" ,icon:"icon-park-outline:edit-name"},
         {title:"Website Menulists", value:"step-2" ,icon:"material-symbols-light:dashboard-customize-outline" },
         {title:"Page List", value:"step-3" ,icon:"iconoir:page" },
-        {title:"Page Customization", value:"step-4" ,icon:"gridicons:customize"  },
-        {title:"Add Meta Data", value:"step-5" ,icon:"carbon:flow-data" },
+        {title:"Components Customize", value:"step-4" ,icon:"mynaui:components" },
+        {title:"Page Customization", value:"step-5" ,icon:"gridicons:customize"  },
+        {title:"Add Meta Data", value:"step-6" ,icon:"carbon:flow-data" },
     ]
     // for collapsing sidbar -----------
     let minify =false ; 
