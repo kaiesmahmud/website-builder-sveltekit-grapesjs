@@ -1,10 +1,10 @@
 <script>
+   import { writable } from 'svelte/store';
 	import DND from './../lib/components/process-2/DND.svelte';
-	import ParentDND from './../lib/components/process-2/ParentDND.svelte';
-	import { MenuListResult } from './../lib/store/store.js';
 	import NewWebsiteNameComponent from '../lib/components/process-1/NewWebsiteNameComponent.svelte';
    import { processStep } from '../lib/store/store';
-   import { writable } from 'svelte/store';
+	import ParentDND from './../lib/components/process-2/ParentDND.svelte';
+	import { MenuListResult } from './../lib/store/store.js';
 
 
     
