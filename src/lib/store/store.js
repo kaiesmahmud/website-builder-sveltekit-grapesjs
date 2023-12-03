@@ -61,3 +61,7 @@ let nodes = {
 }
 export let MenuListResult = writable(nodes)
 export let UserAllData = writable({})
+
+
+//==========New Plan ===========
+export let ShowProcess = writable("step-1")
