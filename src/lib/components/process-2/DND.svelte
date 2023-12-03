@@ -14,13 +14,13 @@ const handleEditNavbar = ()=> {
 
 
 <div class="w-[100%] min-h-[80vh]">
-	<div class=" flex flex-col items-start md:items-center  justify-center gap-10 py-10 px-3">
+	<div class=" flex flex-col items-center  justify-center gap-10 py-10 px-3">
 		{#if $UserAllData.imagedata.length > 5}
 		<div class="w-40 md:w-32 rounded">
 			<img src={$UserAllData.imagedata} alt="logo">
 		</div>
 		{/if}
-		<h3 class="p-2 font-bold  lg:text-4xl  text-transparent capitalize bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+		<h3 class="p-2 font-bold text-xl lg:text-4xl  text-transparent capitalize bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
 			{$UserAllData.websiteName}
 		</h3>
 		{#if !$editNavbar}
