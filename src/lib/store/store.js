@@ -60,3 +60,4 @@ let nodes = {
 
 }
 export let MenuListResult = writable(nodes)
+export let UserAllData = writable({})
