@@ -61,7 +61,7 @@
     }
   }
 </script>
-<div class="w-full md:w-[70%] max-w-[1000px] flex flex-col min-h-[30vh] items-center justify-center gap-5 bg-white/10 py-5">
+<div class="w-full md:w-[70%] max-w-[1000px] flex flex-col min-h-[30vh] items-center justify-center gap-5  py-5">
     <div class="text-center ">
       <h3 class="font-semibold text-xl md:text-3xl">Create Your First Website</h3>
     </div>
