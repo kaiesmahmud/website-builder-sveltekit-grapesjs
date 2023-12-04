@@ -23,7 +23,7 @@
 
 </script>
 
-<div class={`w-full  text-white border-white rounded p-3 ${minify && " w-auto "}  ${!minify && " md:w-1/4 "} `}>
+<div class={`  text-white border-white rounded p-3  ${!minify && " md:w-1/4 "} `}>
 
     <div class="flex items-center justify-between">
         {#if !minify}
@@ -63,8 +63,8 @@
     <div class="flex md:hidden flex-col gap-3 text-start items-start justify-normal w-full my-5">
         {#each sideBarData as {title,value,icon}}
         <button 
-        on:click={()=> {handleProcessChange(value) ; handleshortingSideBar();}} 
-        class={`w-full  text-start bg-white/10 hover:bg-white/20 hover:text-cyan-500 rounded-lg flex gap-2 justify-between p-3 text-xs md:text-sm font-semibold ${$ShowProcess === value && " bg-white/20 text-cyan-500 "}`}
+        on:click={()=>{handleProcessChange(value) ; handleshortingSideBar();}} 
+        class={`  text-start bg-white/10 hover:bg-white/20 hover:text-cyan-500 rounded-lg flex gap-2 justify-between p-3 text-xs md:text-sm font-semibold ${$ShowProcess === value && " bg-white/20 text-cyan-500 "}`}
         
         >
             <div class="flex gap-2 items-center">

@@ -15,7 +15,8 @@
 <div class="flex flex-col md:flex-row  gap-5 w-full">
    <Sidebar/>
    <main class="w-full md:min-w-3/4 bg-white/10 rounded-lg p-3">
-      {$ShowProcess}
+      <h1 class=" capitalize">{$ShowProcess} of 5</h1>
+      
       {#if show === "step-1"}
       <Step1/>
       {/if}
