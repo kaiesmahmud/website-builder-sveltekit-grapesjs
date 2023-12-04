@@ -5,7 +5,7 @@ let inputStyle="w-full p-2 bg-white/10 border-slate-500  focus:border-none  roun
 
 </script>
 
-<section class="w-full flex flex-col md:flex-row items-center md:items-start justify-center gap-3">
+<section class="w-full my-10 flex flex-col md:flex-row items-center md:items-start justify-center gap-3">
     <div class="w-full md:w-1/2 order-2 md:order-1">
         <p class="font-semibold text-xl ">Enter Website Name:</p>
         <div class="w-full md:px-10 flex items-center md:justify-center ">
