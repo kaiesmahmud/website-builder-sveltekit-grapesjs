@@ -1,6 +1,7 @@
 import { writable } from "svelte/store";
 
 export let newWebsiteName = writable("");
+export let newLogoData = writable("");
 
 let dummyData =  {
     id: "", // website name
@@ -59,14 +60,25 @@ let nodes = {
 export let MenuListResult = writable(nodes)
 // ============User Data ========================
 //websiteName   :   String            =>  input
+//logo          :   base64            =>  Data
 //navbarData    :   MenuListResult    =>  Obj
 //navStyle      :   1/2/3/4           =>  number
 //coursesStyle  :   1/2/3/4           =>  number
 //homeBodyHtml  :   Default Design    =>  "Html String"
 //footerData    :   Default           =>  "Html String"
 //allPagesData  :   Array of Obj      =>  { page_id, page_name, page_data }
-export let UserAllData = writable({})
+export let UserAllData = writable({
+    stepAccess:1,
+    websiteName: "",
+    logo: "",
+    navbarData: "",
+    navbarStyle: "",
+    coursesStyle: "",
+    homeBodyHtml: "",
+    footerData: "",
+    allPagesData: "",
+})
 
 
 //==========New Plan ============================
-export let ShowProcess = writable("step-1")
+export let ShowProcess = writable(1)
