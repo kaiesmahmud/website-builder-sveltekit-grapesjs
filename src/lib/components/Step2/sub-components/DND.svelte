@@ -13,7 +13,7 @@ const handleEditNavbar = ()=> {
 //=========Update to Next Step ===========
 const handleStepNext = () => {
 	if($ShowProcess == 2){
-		UserAllData.update(data=>{return {...data,stepAccess:3,navbarData:$MenuListResult}})
+		UserAllData.update(data=>{return {...data,stepAccess:4,navbarData:$MenuListResult}})
 		ShowProcess.set(3)
 		console.log($UserAllData)
 	}else{

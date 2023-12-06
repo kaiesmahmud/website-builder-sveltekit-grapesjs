@@ -6,6 +6,6 @@
 </script>
 
 <section class="w-full ">
-    <h1 class=" capitalize font-semibold text-xl text-white/80 p-3">{$ShowProcess} of 5 | Edit Navbar Menulist</h1>
+    <h1 class="font-semibold text-xl text-white p-3">STEP {$ShowProcess} of 6 | Edit Navbar Menulist</h1>
     <Dnd/>
 </section>
