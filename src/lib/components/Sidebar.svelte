@@ -1,13 +1,13 @@
 <script>
     import Icon from '@iconify/svelte';
-    import { ShowProcess } from '../store/store';
+    import { ShowProcess, UserAllData } from '../store/store';
     let sideBarData = [
-        {title:"Website Name & Logo", value:"step-1" ,icon:"icon-park-outline:edit-name"},
-        {title:"Website Menulists", value:"step-2" ,icon:"material-symbols-light:dashboard-customize-outline" },
-        {title:"Page List", value:"step-3" ,icon:"iconoir:page" },
-        {title:"Components Customize", value:"step-4" ,icon:"mynaui:components" },
-        {title:"Page Customization", value:"step-5" ,icon:"gridicons:customize"  },
-        {title:"Add Meta Data", value:"step-6" ,icon:"carbon:flow-data" },
+        {title:"Website Name & Logo", value:1 ,icon:"icon-park-outline:edit-name"},
+        {title:"Website Menulists", value:2 ,icon:"material-symbols-light:dashboard-customize-outline" },
+        {title:"Page List", value:3 ,icon:"iconoir:page" },
+        {title:"Components Customize", value:4 ,icon:"mynaui:components" },
+        {title:"Page Customization", value:5 ,icon:"gridicons:customize"  },
+        {title:"Add Meta Data", value:6 ,icon:"carbon:flow-data" },
     ]
     // for collapsing sidbar -----------
     let minify =false ; 
@@ -18,7 +18,11 @@
     const handleshortingSideBar = ()=>{short=!short}
     // ============Change Process View ==============
     const handleProcessChange = (newProcessToView)=>{
-        ShowProcess.set(newProcessToView)
+        if($UserAllData.stepAccess >= newProcessToView){
+            ShowProcess.set(newProcessToView)
+        }else{
+            alert("You Don't Have Permission. Complete Step by Step")
+        }
     }
 
 </script>
