@@ -19,22 +19,22 @@
    <main class="w-full md:min-w-3/4 bg-white/10 rounded-lg p-3">
       <h1 class=" capitalize font-semibold text-xl text-white/80">{$ShowProcess} of 5</h1>
       
-      {#if show === "step-1"}
+      {#if show === 1}
       <Step1/>
       {/if}
-      {#if  show === "step-2"}
+      {#if  show === 2}
       <Step2/>
       {/if}
-      {#if  show === "step-3"}
+      {#if  show === 3}
       <Step3/>
       {/if}
-      {#if  show === "step-4"}
+      {#if  show === 4}
       <Step4/>
       {/if}
-      {#if  show === "step-5"}
+      {#if  show === 5}
       <Step5/>
       {/if}
-      {#if  show === "step-6"}
+      {#if  show === 5}
       <Step6/>
       {/if}
    </main>
