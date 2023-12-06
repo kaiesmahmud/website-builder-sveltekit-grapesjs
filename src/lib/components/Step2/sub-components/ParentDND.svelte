@@ -1,4 +1,5 @@
 <script>
+    import { UserAllData } from '../../../store/store';
 	import DNDPageSubPage from './DNDPageSubPage.svelte';
     // import DndPageSubPage from '$lib/components/DNDPageSubPage.svelte';
     import { writable } from 'svelte/store';
@@ -39,6 +40,10 @@
 		
 		MenuListResult.update(()=> nodes)
 		handleEditNavbar()
+		//========Update the Navbar Data to UserAllData Store====
+		UserAllData.update(data=>{return {...data, navbarData:$MenuListResult}})
+		console.log(" update UserAllData", $UserAllData)
+		
 	}
 	let itemToShowSettings = writable({name:"",id:""})
 	console.log(itemToShowSettings)
@@ -54,7 +59,7 @@
 <div class="w-[90%] md:w-[80%] border ">
 	<DNDPageSubPage {itemToShowSettings} itemToShow={$itemToShowSettings}  node={nodes.node1} bind:nodes={nodes} parentId={parentId}  />
 </div>
-<button class="bg-green-500/20 p-3 md:p-5 rounded w-[30%] text-sm md:text-md " on:click={handleSaveList}>Save List</button>
+<button class="bg-green-500/30 hover:bg-green-500/50 p-3 md:p-5 rounded w-[30%] text-sm md:text-md " on:click={handleSaveList}>Save List</button>
 
 	
 	
