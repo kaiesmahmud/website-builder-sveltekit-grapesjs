@@ -60,7 +60,7 @@
         UserAllData.update(data=>{ 
             return {
                 ...data, 
-                websiteName: webname,
+                websiteName: webname.toLocaleLowerCase(),
                 logo:$newLogoData,
     
                 } 
@@ -80,7 +80,7 @@
   }
 </script>
 <section class="  ">
-    <h1 class=" capitalize font-semibold text-xl text-white/80 p-3">{$ShowProcess} of 5 | Add Website Name & Logo</h1>
+    <h1 class="font-semibold text-xl text-white p-3">STEP {$ShowProcess} of 5 | Add Website Name & Logo</h1>
     <div class=" w-full my-10 flex flex-col lg:flex-row items-center md:items-start justify-center gap-3">
         <div class="w-full lg:w-1/2 min-w-[350px] order-2 lg:order-1 flex flex-col items-center justify-center gap-3 ">
             <input bind:value={webname}  required class={`${inputStyle} w-[80%]`} type="text" placeholder="Enter Website Name:" />
@@ -88,7 +88,11 @@
             <div class="w-[80%] py-5 md:py-10 rounded-lg bg-white/10 shadow hover:text-blue-500 hover:border-blue-500 text-xs font-bold md:text-sm flex items-center justify-center flex-col gap-10">
                 <p class=" text-center text-white/50 text-xl">Upload Logo: ( png / jpg )</p>
     
-                <Dropzone on:drop={handleFilesSelect} accept="image/png, image/jpeg" multiple={false} disableDefaultStyles={true} containerClasses="w-[80%] border rounded-lg border-white/40 text-center font-light text-white/40 hover:text-white/60  py-20 capitalize"   />
+                <Dropzone  on:drop={handleFilesSelect} accept="image/png, image/jpeg" multiple={false} disableDefaultStyles={true} containerClasses="w-[80%] border rounded-lg border-white/40 text-center font-semibold text-white/40 hover:text-white/60  py-20 capitalize"   >
+                <p>Drag n drop</p>
+                <p>or</p>
+                <p>Upload</p>
+                </Dropzone>
             </div>
             <button on:click={handleSaveNext} class="p-3 my-3 rounded bg-green-500/50 hover:bg-green-600 font-bold text-center transition-all ease-in">Save & Next</button>
         </div>
@@ -105,7 +109,7 @@
             </div>
             <p class="py-5 text-lg font-light">
             {#if webname}
-                {webname}
+                {webname.toLocaleLowerCase()}
             {:else}
                 Website Name Here
             {/if}
