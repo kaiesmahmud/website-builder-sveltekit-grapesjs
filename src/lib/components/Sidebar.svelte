@@ -23,11 +23,11 @@
 
 </script>
 
-<div class={`  text-white border-white rounded p-3  ${!minify && " md:w-1/4 "} `}>
+<div class={`  text-white border-white rounded p-3  ${!minify && " lg:w-1/4 "} `}>
 
     <div class="flex items-center justify-between">
         {#if !minify}
-        <h1 class="text-xl md:text-2xl font-bold text-transparent capitalize bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-600">Magic Creator</h1>
+        <h1 class="md:hidden lg:block text-xl md:text-2xl font-bold text-transparent capitalize bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-600">Magic Creator</h1>
         {/if}
         <button on:click={handleMinify} class=" hidden md:block p-3 text-xl font-bold rounded-full bg-white/10 hover:bg-white/20 hover:text-cyan-500">
             <Icon icon="gridicons:menus" />
@@ -40,7 +40,7 @@
         {#each sideBarData as {title,value,icon}}
         <button 
         on:click={()=> handleProcessChange(value)} 
-        class={`w-full  text-start bg-white/10 hover:bg-white/20 hover:text-cyan-500 rounded-lg flex gap-2 justify-between p-3 text-xs md:text-sm font-semibold ${$ShowProcess === value && " bg-white/20 text-cyan-500 "}`}
+        class={`w-auto lg:w-full  text-start bg-white/10 hover:bg-white/20 hover:text-cyan-500 rounded-lg flex gap-2 justify-between p-3 text-xs md:text-sm font-semibold ${$ShowProcess === value && " bg-white/20 text-cyan-500 "}`}
         
         >
             <div class="flex gap-2 items-center">
@@ -48,11 +48,11 @@
                     <Icon icon={icon} />
                 </div>
                 {#if !minify}
-                     <p>{title}</p>
+                     <p class="hidden lg:block">{title}</p>
                 {/if}
             </div>
             {#if !minify}
-            <div class="text-xl">
+            <div class="text-xl hidden lg:block">
                 <Icon icon="solar:arrow-right-line-duotone" />
             </div>
             {/if}
@@ -64,16 +64,16 @@
         {#each sideBarData as {title,value,icon}}
         <button 
         on:click={()=>{handleProcessChange(value) ; handleshortingSideBar();}} 
-        class={`  text-start bg-white/10 hover:bg-white/20 hover:text-cyan-500 rounded-lg flex gap-2 justify-between p-3 text-xs md:text-sm font-semibold ${$ShowProcess === value && " bg-white/20 text-cyan-500 "}`}
+        class={`w-full  text-start bg-white/10 hover:bg-white/20 hover:text-cyan-500 rounded-lg flex gap-2 justify-between p-3 text-xs md:text-sm font-semibold ${$ShowProcess === value && " bg-white/20 text-cyan-500 "}`}
         
         >
-            <div class="flex gap-2 items-center">
+            <div class="flex gap-2 items-center w-full">
                 <div class="text-xl">
                     <Icon icon={icon} />
                 </div>
-                {#if !minify}
+                <!-- {#if !minify} -->
                      <p>{title}</p>
-                {/if}
+                <!-- {/if} -->
             </div>
             {#if !minify}
             <div class="text-xl">
