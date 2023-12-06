@@ -19,6 +19,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@tailwindcss/forms": "^0.5.7",
 		"svelte-dnd-action": "^0.9.33",
 		"svelte-file-dropzone": "^2.0.2"
 	}
