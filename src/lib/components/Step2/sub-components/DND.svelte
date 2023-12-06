@@ -1,26 +1,28 @@
 <script>
 	import DNDNavbar from './DNDNavbar.svelte';
-	import ParentDND from './ParentDND.svelte';
-	import { writable } from 'svelte/store';
-	import { MenuListResult, UserAllData } from './../../store/store.js';
+    import ParentDnd from './ParentDND.svelte';
+	// import ParentDND from '.ParentDND.svelte';
+	ParentDnd
+	// import { writable } from 'svelte/store';
+	// import { MenuListResult, UserAllData } from '../../../store/store.js';
 
-let editNavbar = writable(false) ;
-const handleEditNavbar = ()=> {
-    console.log("handleEditNavbar Clicked result - ", $editNavbar)
-    editNavbar.set(!$editNavbar)
-}
+// let editNavbar = writable(false) ;
+// const handleEditNavbar = ()=> {
+//     console.log("handleEditNavbar Clicked result - ", $editNavbar)
+//     editNavbar.set(!$editNavbar)
+// }
 // MenuListResult
 </script>
 
 
 <div class="w-[100%] min-h-[80vh]">
 	<div class=" flex flex-col items-center  justify-center gap-10 py-10 px-3">
-		{#if $UserAllData.imagedata.length > 5}
+		<!-- {#if $UserAllData.logo.length > 5}
 		<div class="w-40 md:w-32 rounded">
-			<img src={$UserAllData.imagedata} alt="logo">
+			<img src={$UserAllData.logo} alt="logo">
 		</div>
-		{/if}
-		<h3 class="p-2 font-bold text-xl lg:text-4xl  text-transparent capitalize bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+		{/if} -->
+		<!-- <h3 class="p-2 font-bold text-xl lg:text-4xl  text-transparent capitalize bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
 			{$UserAllData.websiteName}
 		</h3>
 		{#if !$editNavbar}
@@ -34,6 +36,6 @@ const handleEditNavbar = ()=> {
 		{/if}
 		{#if $editNavbar}
 			<ParentDND handleEditNavbar={handleEditNavbar} {MenuListResult} nodes={$MenuListResult} />
-		{/if}
+		{/if} -->
 	</div>
 </div>
