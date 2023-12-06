@@ -3,8 +3,8 @@
     import "../app.css";
     import Footer from '../lib/components/Footer.svelte';
   </script>
-  <div class="flex items-center justify-center flex-col gap-10 ">
-    <div class="min-h-screen p-3 max-w-[3240px] w-full ">
+  <div class="w-full flex items-center justify-center flex-col gap-10 overflow-hidden max-w-[3240px]">
+    <div class="min-h-screen flex flex-col items-center ">
       <Navbar/>
       <slot />
       <Footer/>

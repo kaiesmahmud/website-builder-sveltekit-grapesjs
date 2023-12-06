@@ -78,7 +78,7 @@
   }
 </script>
 
-<section class="p-1 w-full my-10 flex flex-col lg:flex-row items-center md:items-start justify-center gap-3">
+<section class=" w-full my-10 flex flex-col lg:flex-row items-center md:items-start justify-center gap-3">
     <div class="w-full lg:w-1/2 min-w-[350px] order-2 lg:order-1 flex flex-col items-center justify-center gap-3 ">
         <input bind:value={webname}  required class={`${inputStyle} w-[80%]`} type="text" placeholder="Enter Website Name:" />
         <p class="text-xs md:text-sm font-semibold text-red-500 w-[80%]">{errorMessage}</p>
@@ -87,7 +87,7 @@
 
             <Dropzone on:drop={handleFilesSelect} accept="image/png, image/jpeg" multiple={false} disableDefaultStyles={true} containerClasses="w-[80%] border rounded-lg border-white/40 text-center font-light text-white/40 hover:text-white/60  py-20 capitalize"   />
         </div>
-        <button on:click={handleSaveNext} class="p-3 my-3 rounded bg-sky-700 hover:bg-sky-600 font-bold text-center transition-all ease-in">Save & Next</button>
+        <button on:click={handleSaveNext} class="p-3 my-3 rounded bg-green-500/50 hover:bg-green-600 font-bold text-center transition-all ease-in">Save & Next</button>
     </div>
     <div class="w-full  order-1 lg:order-2 lg:w-1/2 flex items-center flex-col gap-3 md:gap-5">
         <p>Preview Image: Best Ratio 1:1</p>
