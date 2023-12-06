@@ -60,6 +60,7 @@
         {/each}
     </div>
     {#if short}
+    <!-- ====== It will work for mobile view -->
     <div class="flex md:hidden flex-col gap-3 text-start items-start justify-normal w-full my-5">
         {#each sideBarData as {title,value,icon}}
         <button 
