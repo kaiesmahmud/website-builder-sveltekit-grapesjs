@@ -5,7 +5,6 @@
 
 </script>
 
-<section>
-    Step -2
-    <!-- <Dnd/> -->
+<section class="w-full p-1">
+    <Dnd/>
 </section>
