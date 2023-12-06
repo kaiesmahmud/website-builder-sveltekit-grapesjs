@@ -33,7 +33,7 @@
 
 		}
 	}
-	let inputStyle="p-2 md:p-5 bg-white/10 border-slate-500 focus:border-none w-[70%] rounded"
+	let inputStyle="p-2  bg-white/10 border-slate-500 focus:border-none w-[70%] rounded"
 	const handleSaveList = () =>{
 		console.log(nodes)
 		
@@ -46,12 +46,12 @@
 </script>
 
 
-<div class="p-3 md:p-5 flex gap-1">
+<div class=" w-full p-3 md:p-5 flex justify-center gap-1">
     <input bind:value={newPageName} class={inputStyle} placeholder="Type Page Name Here"/>
-    <button class="bg-green-500/10 p-2 md:p-5 rounded w-[30%] text-sm md:text-md" on:click={handleAddNewPage}>Add Page</button>
+    <button class="bg-green-500/30 hover:bg-green-500/50 p-2 md:p-5 rounded w-[20%] text-sm md:text-md" on:click={handleAddNewPage}>Add Page</button>
 </div>
 
-<div class="w-[90%] md:w-[80%] lg:w-[50%] p-1">
+<div class="w-[90%] md:w-[80%] border ">
 	<DNDPageSubPage {itemToShowSettings} itemToShow={$itemToShowSettings}  node={nodes.node1} bind:nodes={nodes} parentId={parentId}  />
 </div>
 <button class="bg-green-500/20 p-3 md:p-5 rounded w-[30%] text-sm md:text-md " on:click={handleSaveList}>Save List</button>
