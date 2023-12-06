@@ -5,6 +5,8 @@
    import Step2 from '../lib/components/Step2/Step2.svelte';
    import Step3 from '../lib/components/Step3/Step3.svelte';
    import Step4 from '../lib/components/Step4/Step4.svelte';
+   import Step5 from '../lib/components/Step5/Step5.svelte';
+   import Step6 from '../lib/components/Step6/Step6.svelte';
 
 
    $: show = $ShowProcess
@@ -15,7 +17,7 @@
 <div class="flex flex-col md:flex-row  gap-5 w-full">
    <Sidebar/>
    <main class="w-full md:min-w-3/4 bg-white/10 rounded-lg p-3">
-      <h1 class=" capitalize">{$ShowProcess} of 5</h1>
+      <h1 class=" capitalize font-semibold text-xl text-white/80">{$ShowProcess} of 5</h1>
       
       {#if show === "step-1"}
       <Step1/>
@@ -28,6 +30,12 @@
       {/if}
       {#if  show === "step-4"}
       <Step4/>
+      {/if}
+      {#if  show === "step-5"}
+      <Step5/>
+      {/if}
+      {#if  show === "step-6"}
+      <Step6/>
       {/if}
    </main>
 </div>
