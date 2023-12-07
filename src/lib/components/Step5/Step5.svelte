@@ -4,16 +4,24 @@
     import PagesList from './sub-components/PagesList.svelte';
 
     let edit = false ;
-    $: toEdit = "home"
+    $: toEdit = ""
+    const handleEditPageName = (name)=> {
+        toEdit = name ;
+        edit = true ;
+    }
+    const handleBacktoPageList = () => {
+        edit  = false ;
+        toEdit = "" ;
+    }
 </script>
 
 <div>
     <h1 class="font-semibold text-xl text-white p-3">STEP {$ShowProcess} of 6 | Page Customization</h1>
     <div>
         {#if edit}
-             <Editor/>
+             <Editor {toEdit} {handleBacktoPageList}/>
         {:else}
-             <PagesList/>
+             <PagesList {handleEditPageName}/>
         {/if}
     </div>
 </div>
