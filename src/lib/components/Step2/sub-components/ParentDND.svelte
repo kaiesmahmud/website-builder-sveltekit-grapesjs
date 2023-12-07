@@ -15,7 +15,10 @@
 			let  pageName = newPageName
 			let  pageURl = newPageName?.toLowerCase().replace(/ /g, '-')
 			let pageObj = {
-				name : pageName, id: pageURl , items:[]
+				name : pageName, 
+				id: pageURl , 
+				url:{pageURl} ,
+				items:[]
 			}
 			console.log(pageObj)
 			newPageName = ""
