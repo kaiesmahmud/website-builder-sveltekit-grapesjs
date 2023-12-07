@@ -28,14 +28,15 @@ let nodes = {
              ], 
     },
     courses: {
-        name:'courses', id:"courses"
+        name:'courses', id:"courses" ,url:"courses"
     },
     experience: {
-        name:'experience', id:"experience",items:[]
+        name:'experience', id:"experience" ,url:"experience",items:[]
     },
     services: {
         name:'services',
         id:"services",
+        url:"services",
          items:[
              {id: 'service1'},
              {id: 'service2'},
@@ -44,16 +45,16 @@ let nodes = {
          ],
     },
     service1: {
-        name:'service1', id:"service1"
+        name:'service1', id:"service1" ,url:"service1"
     },
     service2: {
-        name:'service2', id:"service2"
+        name:'service2', id:"service2" ,url:"service2"
     },
     service3: {
-        name:'service3', id:"service3"
+        name:'service3', id:"service3" ,url:"service3"
     },
     service4: {
-        name:'service4', id:"service4"
+        name:'service4', id:"service4" ,url:"service4"
     },
 
 }
@@ -78,7 +79,12 @@ export let UserAllData = writable({
     footerData: "",
     allPagesData: "",
 })
-
+/*AllPagesData --> [
+    {
+        id: "pagename (navId)"
+    }
+]
+*/
 
 //==========New Plan ============================
 export let ShowProcess = writable(1)
