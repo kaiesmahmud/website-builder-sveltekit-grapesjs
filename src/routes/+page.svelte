@@ -34,7 +34,7 @@
       {#if  show === 5}
       <Step5/>
       {/if}
-      {#if  show === 5}
+      {#if  show === 6}
       <Step6/>
       {/if}
    </main>
