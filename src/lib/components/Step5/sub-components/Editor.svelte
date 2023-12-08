@@ -116,11 +116,24 @@
         console.log("from- Block ",$UserAllData.allPagesData)
        });
 
+//============Works on mouse move !! Supper Fast !! ================
+       editor.on('change', () => {
+        updatedHtml = editor.getHtml();
+
+        let findData = $UserAllData.allPagesData.filter(p=> p.url === toEdit)[0] ;
+        findData.data = updatedHtml ;
+        console.log("Find Data" , findData)
+        UserAllData.update(p=> {return{ ...p , findData}})
+        console.log("from- Block ",$UserAllData.allPagesData)
+        });
+
 
       // Store and load events
       editor.on('storage:load', function(e) { console.log('Loaded ', e) });
       editor.on('storage:store', function(e) { console.log('Stored ', e) });
     })
+
+
 
     let handleSave = ()=>{
         let findData = $UserAllData.allPagesData.filter(p=> p.url === toEdit)[0] ;
