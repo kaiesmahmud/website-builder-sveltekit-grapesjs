@@ -1,4 +1,5 @@
 <script>
+	import { createPageWithDummy } from './../../../functions/createPageWithDummy.js';
 	import DNDNavbar from './DNDNavbar.svelte';
     import ParentDND from './ParentDND.svelte';
 	import { writable } from 'svelte/store';
@@ -13,7 +14,8 @@ const handleEditNavbar = ()=> {
 //=========Update to Next Step ===========
 const handleStepNext = () => {
 	if($ShowProcess == 2){
-		UserAllData.update(data=>{return {...data,stepAccess:4,navbarData:$MenuListResult}})
+		let allPagesData = createPageWithDummy($MenuListResult,$UserAllData.websiteName)
+		UserAllData.update(data=>{return {...data,stepAccess:4,navbarData:$MenuListResult , allPagesData:allPagesData}})
 		ShowProcess.set(3)
 		console.log($UserAllData)
 	}else{
