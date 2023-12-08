@@ -1,0 +1,23 @@
+.gjs-pn-panel{
+    @apply bg-slate-600 rounded  !important
+
+}
+.gjs-one-bg{
+    @apply bg-slate-700 rounded !important
+}
+.gjs-frame{
+    @apply w-full mt-4 !important 
+}
+
+.gjs-devices{
+    @apply text-sm p-1 !important
+}
+.gjs-pn-buttons{
+    @apply text-sm p-1 !important
+}
+.gjs-blocks-c{
+    @apply flex-col p-1 !important
+}
+.gjs-block{
+    @apply w-full p-2 !important
+}
