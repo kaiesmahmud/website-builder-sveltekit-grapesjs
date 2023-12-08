@@ -21,3 +21,6 @@
 .gjs-block{
     @apply w-full p-2 !important
 }
+.gjs-dashed{
+    @apply py-5 overflow-y-scroll !important
+}
