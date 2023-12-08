@@ -68,6 +68,8 @@ export let MenuListResult = writable(nodes)
 //homeBodyHtml  :   Default Design    =>  "Html String"
 //footerData    :   Default           =>  "Html String"
 //allPagesData  :   Array of Obj      =>  { page_id, page_name, page_data }
+
+//url: , data:
 export let UserAllData = writable({
     stepAccess:1,
     websiteName: "",
