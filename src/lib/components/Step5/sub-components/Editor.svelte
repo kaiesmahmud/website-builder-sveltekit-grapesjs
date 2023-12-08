@@ -94,7 +94,7 @@
         console.log($UserAllData.allPagesData)
         // console.log(updatedHtml)
       });
-
+// ===================When Block Drag will Stop =================
       editor.on('block:drag:stop', (component, block) => { 
         updatedHtml = editor.getHtml();
 
@@ -104,6 +104,18 @@
         UserAllData.update(p=> {return{ ...p , findData}})
         console.log("from- Block:drag:stop ",$UserAllData.allPagesData)
       });
+
+    //   ==============For All Block Functionalities ===============
+      editor.on('block', ({ event, model }) => { 
+        updatedHtml = editor.getHtml();
+
+        let findData = $UserAllData.allPagesData.filter(p=> p.url === toEdit)[0] ;
+        findData.data = updatedHtml ;
+        console.log("Find Data" , findData)
+        UserAllData.update(p=> {return{ ...p , findData}})
+        console.log("from- Block ",$UserAllData.allPagesData)
+       });
+
 
       // Store and load events
       editor.on('storage:load', function(e) { console.log('Loaded ', e) });
