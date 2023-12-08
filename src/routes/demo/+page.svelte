@@ -374,3 +374,99 @@
             </div>
         </div>
     </div>
+
+
+    ===========Journey========
+
+<div id="main" class="flex flex-col">
+    <div class="grid grid-flow-col py-2 md:py-5 text-xs md:text-base">
+        <div class="flex flex-row items-center justify-start">
+            <img src="data:image/png;base64,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" alt="" class="h-11 md:h-full scale-x-[-1]"> 
+            <div class="flex flex-col">
+                <span>Rating</span> 
+                <span class="flex flex-row gap-2">
+                    <h3 class="text-amber-800 font-semibold text-xs md:text-lg">5</h3> 
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-amber-800 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                    </svg>
+                </span>
+            </div> 
+            <img src="data:image/png;base64,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" alt="" class="h-11 md:h-full"></div> 
+            <div class="flex flex-col">
+                <span class="flex flex-row items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                        <path d="M12 16Q13.875 16 15.188 14.688Q16.5 13.375 16.5 11.5Q16.5 9.625 15.188 8.312Q13.875 7 12 7Q10.125 7 8.812 8.312Q7.5 9.625 7.5 11.5Q7.5 13.375 8.812 14.688Q10.125 16 12 16ZM12 14.2Q10.875 14.2 10.088 13.412Q9.3 12.625 9.3 11.5Q9.3 10.375 10.088 9.587Q10.875 8.8 12 8.8Q13.125 8.8 13.913 9.587Q14.7 10.375 14.7 11.5Q14.7 12.625 13.913 13.412Q13.125 14.2 12 14.2ZM12 19Q8.35 19 5.35 16.962Q2.35 14.925 1 11.5Q2.35 8.075 5.35 6.037Q8.35 4 12 4Q15.65 4 18.65 6.037Q21.65 8.075 23 11.5Q21.65 14.925 18.65 16.962Q15.65 19 12 19Z"></path>
+                    </svg> 
+                    <p class="px-2">Views</p>
+                </span> 
+                <h3 class="text-amber-800 font-semibold text-xs md:text-lg">5K</h3>
+            </div> 
+            <div class="flex flex-col">
+                <span class="flex flex-row items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                        <path d="M5 21V5Q5 4.175 5.588 3.587Q6.175 3 7 3H17Q17.825 3 18.413 3.587Q19 4.175 19 5V21L12 18Z"></path>
+                    </svg> 
+                    <p class="px-2">Category</p>
+                </span> 
+                <h3 class="text-amber-800 font-semibold text-xs md:text-lg">Breathwork</h3>
+            </div>
+        </div> 
+        <p class="">
+			Welcome to Mila Aluna Shamanic Breathwork - 
+
+			A special ecstatic fusion of circular breathing and soft gentle movements to charge your entire being 
+			with energy and to explore deep layers inside of the subconsciousness. This journey can help to heal 
+			deep trauma and reprogram the nervous system into more peace. To come back to our truest essence of joy and harmony.  
+		</p> 
+        <div id="categories" class="flex flex-row flex-wrap py-3 my-4 gap-3">
+            <div class="py-2 px-7 h-min bg-[#e4c5b744] text-amber-800">
+                <p>Anxiety</p> 
+            </div>
+            <div class="py-2 px-7 h-min bg-[#e4c5b744] text-amber-800">
+                <p>Stress &amp; Anxiety</p> 
+            </div>
+            <div class="py-2 px-7 h-min bg-[#e4c5b744] text-amber-800">
+                <p>Energy-Based</p> 
+            </div>
+            <div class="py-2 px-7 h-min bg-[#e4c5b744] text-amber-800">
+                <p>Concentration</p> 
+            </div>
+            <div class="py-2 px-7 h-min bg-[#e4c5b744] text-amber-800">
+                <p>Breathing Meditation</p> 
+            </div>
+            <div class="py-2 px-7 h-min bg-[#e4c5b744] text-amber-800">
+                <p>Spirituality</p> 
+            </div>
+        </div> 
+        <div class="flex flex-col my-8">
+            <h2 class="text-lg font-bold uppercase text-amber-800">Class Trainer</h2> 
+            <div class="bg-rose-400 h-1 w-10 rounded"></div> 
+            <div id="profile" class="px-3 py-8 flex flex-col sm:flex-row gap-3">
+                <img src="https://magic-tw.vercel.app/_app/immutable/assets/m-06f25b59.jpg" alt="Mila Aluna" class="h-[120px] w-[120px]  mx-auto md:h-[100px] md:w-[120px] object-cover rounded-[50%]"> 
+                <div id="profile-data" class="w-full grid sm:ml-5">
+                    <div id="bio" class="flex flex-row justify-between">
+                        <div class="gird">
+                            <h2 class="text-xl font-bold uppercase text-amber-800">Mila Aluna</h2> 
+                            <p class="uppercase text-amber-800 text-xs md:text-sm">Amsterdam, Netherlands</p>
+                        </div> 
+                        <a href="/">
+                            <button class="pointer bg-amber-800 text-white font-bold py-2 px-7 hover:bg-amber-700">Follow</button>
+                        </a>
+                    </div> 
+                    <div class="relative">
+                        <input id="ch" type="checkbox" class="svelte-a9x181"> 
+                        <label for="ch" id="ch-l" class="svelte-a9x181">
+
+                        </label> 
+                        <div class="h-[100px] overflow-hidden svelte-a9x181" id="ch-t">In the last 4 years I been studying and working in shamanism in Mexico, Guatemala and Thailand with various shamanic traditions with the use of plant medicine and non plant medicine.
+                        The path of shamanism has helped me to deeper understand myself and has given me the tools to hold space for others and intuitively feel what is needed.
+                        In addition to my shamanic background, I has been teaching yoga for the past 7 years all over the world in various styles: Yin, Yin/Yang, Vinyasa, Ashtanga, Acro-yoga. 
+                        Besides teaching yoga she is also a massage therapist and artist.
+                        In my daily live i find it important to : live healthy, heal myself and others, be curious and conscious about my inner and outer world, travel and explore, live from my heart with the flow of live, express myself creatively and take time to enjoy everything in this moment. I hope to share this experience and inspiration with my students.
+                        In my yoga classes i will guide you gently into a space where there is time to relax and surrender into your body.  Time to go on a journey within and discover your true nature. To embrace yourself as you are and how you feel. With my in-depth knowledge about the physical body and experience in massage i will consciously guide you and adjust you in the poses
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
