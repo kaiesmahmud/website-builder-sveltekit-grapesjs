@@ -1,34 +1,49 @@
 <p>Demo Website</p>
+==========Course Name =========
+<div class="w-full h-[70px] bg-[#f1e9e5] grid">
+    <ul class="my-auto h-full grid grid-flow-col justify-items-center text-center text-amber-800">
+        <li class="w-full h-full">
+            <button class="w-full px-3 text-center nav-btn h-full hover:bg-[#e0bcaa] svelte-1epk9qg">Breathwork</button> 
+        </li>
+    </ul>
+</div>
+
+
 ==========Part One =========
-<div class="bg-zinc-600 text-white py-1 text-sm w-full font-sans grid gap-2 grid-cols-2 items-center">
-    <div class="flex flex-col items-center md:flex-row justify-evenly">
-        <span class="flex flex-row items-center gap-1">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="5 -5 13 59" class="text-white mr-2 h-8 w-8 md:h-15" width="15px" height="15px">
-                <path fill="currentColor" d="M24 23.95Q20.7 23.95 18.6 21.85Q16.5 19.75 16.5 16.45Q16.5 13.15 18.6 11.05Q20.7 8.95 24 8.95Q27.3 8.95 29.4 11.05Q31.5 13.15 31.5 16.45Q31.5 19.75 29.4 21.85Q27.3 23.95 24 23.95ZM8 40V35.3Q8 33.4 8.95 32.05Q9.9 30.7 11.4 30Q14.75 28.5 17.825 27.75Q20.9 27 24 27Q27.1 27 30.15 27.775Q33.2 28.55 36.55 30Q38.1 30.7 39.05 32.05Q40 33.4 40 35.3V40Z"></path>
-            </svg> 
-            <p class="uppercase text-[11px] md:text-[15px]">Mila Aluna</p>
-        </span> 
-        <h3 style="font-family: 'Quattrocento Sans', sans-serif;" class="text-[11px] md:text-[15px] text-center font-['Quattrocento Sans']">Mila Aluna Shamanic Breathwork</h3>
-    </div> 
-    <div class="flex flex-col items-center md:flex-row justify-evenly">
-        <a class="mx-5 justify-self-end" href="https://breathworkapp.s3.amazonaws.com/public/Test/BreathworkV21/index.html?tr=Mila&amp;jy=Journey" rel="noopener noreferrer" target="_blank">
-            <button class="text-xs my-1 px-8 uppercase md:px-14 py-2 bg-amber-700 text-white hover:bg-amber-500 shadow-lg dark:shadow-cyan-800 hover:shadow mx-auto">Enter</button>
-        </a> 
-        <div class="grid justify-self-end md:border-l-2 md:border-l-gray-500 md:px-4 md:mr-5 lg:max-w-md">
-            <h3 class="text-base uppercase hidden md:block">About This Session</h3> 
-            <div class="flex gap-1 leading-none">
-                <span class="flex flex-row items-center gap-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="5 -15 15 82" class="text-white text-xs mr-2 h-8 w-8 md:h-15" height="5px" width="5px">
-                        <path fill="currentColor" d="M24 21.9Q27.45 21.9 29.825 19.375Q32.2 16.85 32.2 13.3V7H15.8V13.3Q15.8 16.85 18.175 19.375Q20.55 21.9 24 21.9ZM8 44V41H12.8V34.65Q12.8 31.15 14.625 28.225Q16.45 25.3 19.7 24Q16.45 22.7 14.625 19.75Q12.8 16.8 12.8 13.3V7H8V4H40V7H35.2V13.3Q35.2 16.8 33.35 19.75Q31.5 22.7 28.3 24Q31.55 25.3 33.375 28.225Q35.2 31.15 35.2 34.65V41H40V44Z"></path>
-                    </svg> 
-                    <p>10 min.</p>
-                </span> 
-                <span class="flex flex-row items-center gap-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="5 -15 15 89" class="text-white mr-2 h-8 w-8 md:h-15" height="5px" width="5px">
-                        <path fill="currentColor" d="M31.55 9.6 24.1 17.05 22.1 15.05 26.05 11.1H24Q18.65 11.1 14.825 14.925Q11 18.75 11 24.1Q11 25.55 11.275 26.85Q11.55 28.15 11.95 29.3L9.8 31.45Q8.8 29.65 8.4 27.825Q8 26 8 24.1Q8 17.55 12.725 12.825Q17.45 8.1 24 8.1H26.15L22.15 4.1L24.1 2.15ZM16.35 38.55 23.8 31.1 25.75 33.05 21.75 37.05H24Q29.35 37.05 33.175 33.225Q37 29.4 37 24.05Q37 22.6 36.75 21.3Q36.5 20 36 18.85L38.15 16.7Q39.15 18.5 39.575 20.325Q40 22.15 40 24.05Q40 30.6 35.275 35.325Q30.55 40.05 24 40.05H21.75L25.75 44.05L23.8 46Z"></path>
-                    </svg> 
-                    <p>1-3 Rounds</p>
-                </span>
+<div>
+    <div class="w-full flex justify-center object-center overflow-hidden">
+        <img class="w-full rounded " src="https://images.unsplash.com/photo-1529693662653-9d480530a697?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="sdfsdf">
+    </div>
+    <div class="bg-zinc-600 text-white py-1 text-sm w-full font-sans grid gap-2 grid-cols-2 items-center">
+        <div class="flex flex-col items-center md:flex-row justify-evenly">
+            <span class="flex flex-row items-center gap-1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="5 -5 13 59" class="text-white mr-2 h-8 w-8 md:h-15" width="15px" height="15px">
+                    <path fill="currentColor" d="M24 23.95Q20.7 23.95 18.6 21.85Q16.5 19.75 16.5 16.45Q16.5 13.15 18.6 11.05Q20.7 8.95 24 8.95Q27.3 8.95 29.4 11.05Q31.5 13.15 31.5 16.45Q31.5 19.75 29.4 21.85Q27.3 23.95 24 23.95ZM8 40V35.3Q8 33.4 8.95 32.05Q9.9 30.7 11.4 30Q14.75 28.5 17.825 27.75Q20.9 27 24 27Q27.1 27 30.15 27.775Q33.2 28.55 36.55 30Q38.1 30.7 39.05 32.05Q40 33.4 40 35.3V40Z"></path>
+                </svg> 
+                <p class="uppercase text-[11px] md:text-[15px]">Mila Aluna</p>
+            </span> 
+            <h3 style="font-family: 'Quattrocento Sans', sans-serif;" class="text-[11px] md:text-[15px] text-center font-['Quattrocento Sans']">Mila Aluna Shamanic Breathwork</h3>
+        </div> 
+        <div class="flex flex-col items-center md:flex-row justify-evenly">
+            <a class="mx-5 justify-self-end" href="https://breathworkapp.s3.amazonaws.com/public/Test/BreathworkV21/index.html?tr=Mila&amp;jy=Journey" rel="noopener noreferrer" target="_blank">
+                <button class="text-xs my-1 px-8 uppercase md:px-14 py-2 bg-amber-700 text-white hover:bg-amber-500 shadow-lg dark:shadow-cyan-800 hover:shadow mx-auto">Enter</button>
+            </a> 
+            <div class="grid justify-self-end md:border-l-2 md:border-l-gray-500 md:px-4 md:mr-5 lg:max-w-md">
+                <h3 class="text-base uppercase hidden md:block">About This Session</h3> 
+                <div class="flex gap-1 leading-none">
+                    <span class="flex flex-row items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="5 -15 15 82" class="text-white text-xs mr-2 h-8 w-8 md:h-15" height="5px" width="5px">
+                            <path fill="currentColor" d="M24 21.9Q27.45 21.9 29.825 19.375Q32.2 16.85 32.2 13.3V7H15.8V13.3Q15.8 16.85 18.175 19.375Q20.55 21.9 24 21.9ZM8 44V41H12.8V34.65Q12.8 31.15 14.625 28.225Q16.45 25.3 19.7 24Q16.45 22.7 14.625 19.75Q12.8 16.8 12.8 13.3V7H8V4H40V7H35.2V13.3Q35.2 16.8 33.35 19.75Q31.5 22.7 28.3 24Q31.55 25.3 33.375 28.225Q35.2 31.15 35.2 34.65V41H40V44Z"></path>
+                        </svg> 
+                        <p>10 min.</p>
+                    </span> 
+                    <span class="flex flex-row items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="5 -15 15 89" class="text-white mr-2 h-8 w-8 md:h-15" height="5px" width="5px">
+                            <path fill="currentColor" d="M31.55 9.6 24.1 17.05 22.1 15.05 26.05 11.1H24Q18.65 11.1 14.825 14.925Q11 18.75 11 24.1Q11 25.55 11.275 26.85Q11.55 28.15 11.95 29.3L9.8 31.45Q8.8 29.65 8.4 27.825Q8 26 8 24.1Q8 17.55 12.725 12.825Q17.45 8.1 24 8.1H26.15L22.15 4.1L24.1 2.15ZM16.35 38.55 23.8 31.1 25.75 33.05 21.75 37.05H24Q29.35 37.05 33.175 33.225Q37 29.4 37 24.05Q37 22.6 36.75 21.3Q36.5 20 36 18.85L38.15 16.7Q39.15 18.5 39.575 20.325Q40 22.15 40 24.05Q40 30.6 35.275 35.325Q30.55 40.05 24 40.05H21.75L25.75 44.05L23.8 46Z"></path>
+                        </svg> 
+                        <p>1-3 Rounds</p>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
@@ -168,3 +183,194 @@
         </div>
 
 </div>
+
+
+=========Intro Part ==========
+
+<div class="flex flex-col">
+    <p class="text-xs tracking-[0.2em] uppercase text-amber-800">ShamanicBreathwork</p> 
+    <h1 class="text-amber-800 text-2xl md:my-2 md:text-3xl">Mila Aluna Shamanic Breathwork</h1> 
+    <div class="flex flex-row gap-1 p-2 md:gap-9 items-center text-amber-800 flex-wrap">
+        <span class="flex flex-row items-center gap-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="5 -5 13 59" class="mr-2 h-8 w-8 md:h-15" width="20px" height="20px">
+                <path fill="currentColor" d="M24 23.95Q20.7 23.95 18.6 21.85Q16.5 19.75 16.5 16.45Q16.5 13.15 18.6 11.05Q20.7 8.95 24 8.95Q27.3 8.95 29.4 11.05Q31.5 13.15 31.5 16.45Q31.5 19.75 29.4 21.85Q27.3 23.95 24 23.95ZM8 40V35.3Q8 33.4 8.95 32.05Q9.9 30.7 11.4 30Q14.75 28.5 17.825 27.75Q20.9 27 24 27Q27.1 27 30.15 27.775Q33.2 28.55 36.55 30Q38.1 30.7 39.05 32.05Q40 33.4 40 35.3V40Z"></path>
+            </svg> 
+            <p class="uppercase text-xs md:text-sm">Mila Aluna</p>
+        </span> 
+        <span class="flex flex-row items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                <path fill="currentColor" d="M5 21V5Q5 4.175 5.588 3.587Q6.175 3 7 3H17Q17.825 3 18.413 3.587Q19 4.175 19 5V21L12 18Z"></path>
+            </svg> 
+            <p class="px-2 uppercase text-xs md:text-sm">Breathwork</p>
+        </span> 
+        <span class="flex flex-row items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path fill="currentColor" d="M17 20V4H20V20ZM5 20V14H8V20ZM11 20V9H14V20Z"></path>
+            </svg> 
+            <p class="px-2 uppercase text-xs md:text-sm">Intermediate</p>
+        </span>
+    </div> 
+    <div class="rounded-md h-56 md:h-72 w-full shadow bg-center bg-cover hover:shadow-md" style="background-image: url('https://mmm.magicmind.me/webservice/pluginfile.php/46/course/overviewfiles/MilaAluna.jpg?token=4acf05077bc9778f527b3470059b6bc7');"></div> 
+    <p class="text-gray-600 my-5">
+        <p dir="ltr" style="text-align:left;"></p>
+        <h3><strong>Mila Aluna Shamanic Breathwork.</strong></h3>
+        <span style="font-size:0.9375rem;">A special ecstatic fusion of circular breathing and soft gentle movements to&nbsp;</span>
+        <span style="font-size:0.9375rem;">charge your entire being with energy and to explore deep layers inside of the subconsciousness.&nbsp;</span>
+        <span style="font-size:0.9375rem;">This journey can help to heal deep trauma and reprogram the nervous system into more peace.&nbsp;</span>
+        <span style="font-size:0.9375rem;">To come back to our truest essence of joy and harmony.&nbsp;&nbsp;</span>
+
+    <div class="flex gap-5">
+        <div class="my-3 rounded-lg shadow-lg w-full min-h-[250px] max-w-xl mx-auto border border-gray-200 bg-bottom bg-cover hover:shadow-md flex flex-col items-center justify-center svelte-1xs0vz2" style="background: linear-gradient(to right bottom, rgba(180, 83, 9, 0.19), rgba(180, 83, 9, 0.314)) center center, url(&quot;https://images.unsplash.com/photo-1600618528240-fb9fc964b853?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=870&amp;q=80&quot;);">
+            <a href="/courses/5/20" class="hover:text-white text-amber-100 px-4 py-2 md:py-6 text-ellipsis svelte-1xs0vz2">
+                <span class="flex items-center gap-2 sm:gap-[2vw]">
+                    <h3 class="text-xl md:text-2xl font-bold ">Welcome Friends and Family</h3> 
+                    <p class="hidden arr svelte-1xs0vz2">⟶</p>
+                </span>
+            </a>
+        </div>
+        <div class="my-3 rounded-lg shadow-lg w-full min-h-[250px] max-w-xl mx-auto border border-gray-200 bg-bottom bg-cover hover:shadow-md flex flex-col items-center justify-center svelte-1xs0vz2" style="background: linear-gradient(to right bottom, rgba(180, 83, 9, 0.19), rgba(180, 83, 9, 0.314)) center center, url(&quot;https://images.unsplash.com/photo-1607214368910-d7b795724be4?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=870&amp;q=80&quot;);">
+            <a href="/courses/5/26" class="hover:text-white text-amber-100 px-4 py-2 md:py-6 text-ellipsis svelte-1xs0vz2">
+                <span class="flex items-center gap-2 sm:gap-[2vw]">
+                    <h3 class="text-xl md:text-2xl font-bold ">Discover Your 5 Healing Powers</h3> 
+                    <p class="hidden arr svelte-1xs0vz2">⟶</p>
+                </span>
+            </a>
+        </div> 
+        <div class="op my-3 rounded-lg shadow-lg w-full min-h-[250px] max-w-xl mx-auto border border-gray-200 bg-bottom bg-cover hover:shadow-md flex flex-col items-center justify-center svelte-1w0ayfv" style="background: linear-gradient(to right bottom, rgba(180, 83, 9, 0.19), rgba(180, 83, 9, 0.314)) center center, url(&quot;https://mmm.magicmind.me/webservice/pluginfile.php/46/course/overviewfiles/MilaAluna.jpg?token=4acf05077bc9778f527b3470059b6bc7&quot;);">
+            <a target="_blank" rel="noopener noreferrer" href="https://d3c2zlczzrv082.cloudfront.net/public/Testing/taha_test/index.htm?tr=Mila&amp;jy=Journey" class="hover:text-white text-amber-100 px-4 py-2 md:py-6 text-ellipsis svelte-1w0ayfv">
+                <span class="flex items-center gap-2 sm:gap-[2vw]">
+                    <h3 class="text-xl md:text-2xl font-bold ">Breathwork Trainer App</h3> 
+                    <p class="hidden arr font-5xl svelte-1w0ayfv">↗</p>
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
+===========Class Information =========
+<div>
+    <h2 class="text-lg md:text-xl font-bold uppercase text-amber-800">Class Information</h2> 
+        <div class="bg-rose-400 h-1 w-10 my-1 rounded"></div> 
+        <div class="text-sm text-amber-800 px-3 flex flex-col gap-1 mt-2">
+            <span class="flex flex-row items-center gap-2">
+                <svg viewBox="5 -5 13 59" xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                    <path fill="currentColor" d="M15.95 35.5h16.1v-3h-16.1Zm0-8.5h16.1v-3h-16.1ZM11 44q-1.2 0-2.1-.9Q8 42.2 8 41V7q0-1.2.9-2.1Q9.8 4 11 4h18.05L40 14.95V41q0 1.2-.9 2.1-.9.9-2.1.9Zm16.55-27.7H37L27.55 7Z"></path>
+                </svg> 
+                <p>Total Weeks: 52</p>
+            </span> 
+            <div class="mx-auto h-[2px] w-4/5 my-1 bg-gray-200 rounded"></div> 
+            <span class="flex flex-row items-center gap-2">
+                <svg viewBox="5 -5 13 59" xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+                    <path fill="currentColor" d="M24 28q-.85 0-1.425-.575Q22 26.85 22 26q0-.85.575-1.425Q23.15 24 24 24q.85 0 1.425.575Q26 25.15 26 26q0 .85-.575 1.425Q24.85 28 24 28Zm-8 0q-.85 0-1.425-.575Q14 26.85 14 26q0-.85.575-1.425Q15.15 24 16 24q.85 0 1.425.575Q18 25.15 18 26q0 .85-.575 1.425Q16.85 28 16 28Zm16 0q-.85 0-1.425-.575Q30 26.85 30 26q0-.85.575-1.425Q31.15 24 32 24q.85 0 1.425.575Q34 25.15 34 26q0 .85-.575 1.425Q32.85 28 32 28Zm-8 8q-.85 0-1.425-.575Q22 34.85 22 34q0-.85.575-1.425Q23.15 32 24 32q.85 0 1.425.575Q26 33.15 26 34q0 .85-.575 1.425Q24.85 36 24 36Zm-8 0q-.85 0-1.425-.575Q14 34.85 14 34q0-.85.575-1.425Q15.15 32 16 32q.85 0 1.425.575Q18 33.15 18 34q0 .85-.575 1.425Q16.85 36 16 36Zm16 0q-.85 0-1.425-.575Q30 34.85 30 34q0-.85.575-1.425Q31.15 32 32 32q.85 0 1.425.575Q34 33.15 34 34q0 .85-.575 1.425Q32.85 36 32 36ZM9 44q-1.2 0-2.1-.9Q6 42.2 6 41V10q0-1.2.9-2.1Q7.8 7 9 7h3.25V4h3.25v3h17V4h3.25v3H39q1.2 0 2.1.9.9.9.9 2.1v31q0 1.2-.9 2.1-.9.9-2.1.9Zm0-3h30V19.5H9V41Z"></path>
+                </svg> 
+                <p>Open: Sat Nov 19 2022</p>
+            </span> 
+            <button class="text-white text-sm mx-auto my-5 px-6 py-2 bg-amber-800 hover:bg-amber-700">Register Now</button>
+        </div> 
+
+</div>
+==========Class Trainer part =========
+<div class="flex md:flex-row md:justify-center flex-col gap-4 md:gap-16 px-6 mb-5 mx-auto max-w-7xl"> 
+    <div class="md:min-w-[300px]">
+        
+
+        <h2 class="text-lg md:text-2xl font-bold uppercase text-amber-800 md:mt-9">Class Trainer</h2> 
+        <div class="bg-rose-400 h-1 w-10 my-1 rounded"></div> 
+        <div class="p-6 w-full max-w-lg rounded mt-4 bg-[#f1e9e5] flex flex-col items-center gap-2 text-amber-800">
+            <img src="https://mmm.magicmind.me/pluginfile.php/19/user/icon/boost/f1?rev=2529" alt="" class="w-2/3 mx-auto rounded-full"> 
+            <h3 class="font-semibold uppercase">Mila Aluna</h3> 
+            <p class="text-xs w-2/3 text-center line-clamp-[9] cursor-pointer">
+                <p dir="ltr" style="text-align:left;"></p>
+                
+                <p>In the last 4 years I been studying and working in shamanism in Mexico, Guatemala and Thailand with various shamanic traditions with the use of plant medicine and non plant medicine.</p><p>The path of shamanism has helped me to deeper understand myself and has given me the tools to hold space for others and intuitively feel what is needed.</p>In addition to my shamanic background, I has been teaching yoga for the past 7 years all over the world in various styles: Yin, Yin/Yang, Vinyasa, Ashtanga, Acro-yoga. Besides teaching yoga she is also a massage therapist and artist.<p></p><p>“In my daily live i find it important to : live healthy, heal myself and others, be curious and conscious about my inner and outer world, travel and explore, live from my heart with the flow of live, express myself creatively and take time to enjoy everything in this moment. I hope to share this experience and inspiration with my students.”</p>
+                <span class="flex items-center gap-4">
+                    <svg viewBox="5 -5 20 50" xmlns="http://www.w3.org/2000/svg" height="20" width="20">
+                        <path fill="currentColor" d="M24 29.5q2.55 0 4.625-1.2t3.325-3.2q-1.7-1.3-3.7-1.95-2-.65-4.25-.65t-4.25.65q-2 .65-3.7 1.95 1.25 2 3.325 3.2Q21.45 29.5 24 29.5Zm0-10q1.45 0 2.475-1.025Q27.5 17.45 27.5 16q0-1.45-1.025-2.475Q25.45 12.5 24 12.5q-1.45 0-2.475 1.025Q20.5 14.55 20.5 16q0 1.45 1.025 2.475Q22.55 19.5 24 19.5ZM24 44q-8.05-6.85-12.025-12.725Q8 25.4 8 20.4q0-7.5 4.825-11.95Q17.65 4 24 4q6.35 0 11.175 4.45Q40 12.9 40 20.4q0 5-3.975 10.875T24 44Z"></path>
+                    </svg> 
+                    <p class="uppercase text-xs">Amsterdam, NL</p>
+                </span> 
+                <a href="/about">
+                    <button class="text-sm px-7 py-1 my-3 border-2 border-amber-800 hover:bg-amber-800 hover:text-white">View Profile</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    ============About Me ============
+
+<div class="flex flex-col my-4 w-full">
+    <div class="grid grid-flow-row mx-auto my-2 shadow-lg rounded-md w-full max-w-4xl">
+        <div class="h-[40vh] bg-center bg-cover md:rounded-l-md" style="background-image: url(&quot;https://magic-tw.vercel.app/_app/immutable/assets/m1-cca3ff2c.jpg&quot;);"></div> 
+        <div class="p-6 w-full">
+            <div class="flex justify-between items-center py-2">
+                <span class="grid text-amber-800">
+                    <h2 class="font-semibold text-xl md:text-3xl">Mila Aluna</h2> 
+                    <p class="uppercase text-xs py-2"></p>
+                </span> 
+                <button class="px-4 py-2 font-semibold bg-amber-800 text-white hover:bg-amber-700">Follow</button></div> 
+                <div class="text-xs md:text-sm md:w-[80%]">
+                    <div class="metadata-item svelte-29pluy">
+                        <b class="font-semibold svelte-29pluy">Category</b> 
+                        <p class="font-semibold text-[16px] svelte-29pluy">Breathwork, Yoga, Sound Healing</p>
+                    </div> 
+                    <div class="metadata-item svelte-29pluy">
+                        <b class="font-semibold svelte-29pluy">Experience</b> 
+                        <p class="font-semibold text-[16px] svelte-29pluy">10 Years</p>
+                    </div> 
+                    <div class="metadata-item svelte-29pluy">
+                        <b class="font-semibold svelte-29pluy">Biography</b> 
+                        <p class="svelte-29pluy">In the last 4 years I been studying and working in shamanism in Mexico, Guatemala and
+                        Thailand with various shamanic traditions with the use of plant medicine and non plant
+                        medicine. The path of shamanism has helped me to deeper understand myself and has given
+                        me the tools to hold space for others and intuitively feel what is needed. In addition
+                        to my shamanic background, I has been teaching yoga for the past 7 years all over the
+                        world in various styles: Yin, Yin/Yang, Vinyasa, Ashtanga, Acro-yoga. Besides teaching
+                        yoga she is also a massage therapist and artist. In my daily live i find it important to
+                        : live healthy, heal myself and others, be curious and conscious about my inner and
+                        outer world, travel and explore, live from my heart with the flow of live, express
+                        myself creatively and take time to enjoy everything in this moment. I hope to share this
+                        experience and inspiration with my students. In my yoga classes i will guide you gently
+                        into a space where there is time to relax and surrender into your body. Time to go on a
+                        journey within and discover your true nature. To embrace yourself as you are and how you
+                        feel. With my in-depth knowledge about the physical body and experience in massage i
+                        will consciously guide you and adjust you in the poses.</p>
+                    </div> 
+                    <div class="metadata-item svelte-29pluy">
+                        <b class="font-semibold svelte-29pluy">I'll help you</b> 
+                        <ul class="text-lime-700 svelte-29pluy">
+                            <li class="mb-1">
+                                <span class="flex flex-row itemms-center gap-1 font-semibold">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="17 -3 15 49" height="24" width="24">
+                                        <path fill="currentColor" d="M21.05 33.1 35.2 18.95l-2.3-2.25-11.85 11.85-6-6-2.25 2.25ZM24 44q-4.1 0-7.75-1.575-3.65-1.575-6.375-4.3-2.725-2.725-4.3-6.375Q4 28.1 4 24q0-4.15 1.575-7.8 1.575-3.65 4.3-6.35 2.725-2.7 6.375-4.275Q19.9 4 24 4q4.15 0 7.8 1.575 3.65 1.575 6.35 4.275 2.7 2.7 4.275 6.35Q44 19.85 44 24q0 4.1-1.575 7.75-1.575 3.65-4.275 6.375t-6.35 4.3Q28.15 44 24 44Z"></path>
+                                    </svg> 
+                                    <p class="svelte-29pluy">Increase Confidence</p>
+                                </span> 
+                            </li>
+                            <li class="mb-1">
+                                <span class="flex flex-row itemms-center gap-1 font-semibold">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="17 -3 15 49" height="24" width="24">
+                                        <path fill="currentColor" d="M21.05 33.1 35.2 18.95l-2.3-2.25-11.85 11.85-6-6-2.25 2.25ZM24 44q-4.1 0-7.75-1.575-3.65-1.575-6.375-4.3-2.725-2.725-4.3-6.375Q4 28.1 4 24q0-4.15 1.575-7.8 1.575-3.65 4.3-6.35 2.725-2.7 6.375-4.275Q19.9 4 24 4q4.15 0 7.8 1.575 3.65 1.575 6.35 4.275 2.7 2.7 4.275 6.35Q44 19.85 44 24q0 4.1-1.575 7.75-1.575 3.65-4.275 6.375t-6.35 4.3Q28.15 44 24 44Z"></path>
+                                    </svg> 
+                                    <p class="svelte-29pluy">Remove Blockers</p>
+                                </span> 
+                            </li>
+                            <li class="mb-1">
+                                <span class="flex flex-row itemms-center gap-1 font-semibold">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="17 -3 15 49" height="24" width="24">
+                                        <path fill="currentColor" d="M21.05 33.1 35.2 18.95l-2.3-2.25-11.85 11.85-6-6-2.25 2.25ZM24 44q-4.1 0-7.75-1.575-3.65-1.575-6.375-4.3-2.725-2.725-4.3-6.375Q4 28.1 4 24q0-4.15 1.575-7.8 1.575-3.65 4.3-6.35 2.725-2.7 6.375-4.275Q19.9 4 24 4q4.15 0 7.8 1.575 3.65 1.575 6.35 4.275 2.7 2.7 4.275 6.35Q44 19.85 44 24q0 4.1-1.575 7.75-1.575 3.65-4.275 6.375t-6.35 4.3Q28.15 44 24 44Z"></path>
+                                    </svg> 
+                                    <p class="svelte-29pluy">Enjoy Life</p>
+                                </span> 
+                            </li>
+                            <li class="mb-1">
+                                <span class="flex flex-row itemms-center gap-1 font-semibold">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="17 -3 15 49" height="24" width="24">
+                                        <path fill="currentColor" d="M21.05 33.1 35.2 18.95l-2.3-2.25-11.85 11.85-6-6-2.25 2.25ZM24 44q-4.1 0-7.75-1.575-3.65-1.575-6.375-4.3-2.725-2.725-4.3-6.375Q4 28.1 4 24q0-4.15 1.575-7.8 1.575-3.65 4.3-6.35 2.725-2.7 6.375-4.275Q19.9 4 24 4q4.15 0 7.8 1.575 3.65 1.575 6.35 4.275 2.7 2.7 4.275 6.35Q44 19.85 44 24q0 4.1-1.575 7.75-1.575 3.65-4.275 6.375t-6.35 4.3Q28.15 44 24 44Z"></path>
+                                    </svg> 
+                                    <p class="svelte-29pluy">Unleash Your Inner Power</p>
+                                </span> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
