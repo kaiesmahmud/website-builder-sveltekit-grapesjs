@@ -13,7 +13,17 @@ body{
     width: 100vw;
     color: white;
     max-width: 4000px;
+
+    /* ScrollBar------Hiden------  */
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+
+::-webkit-scrollbar{
+    display: none;
+}
+
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Poppins', sans-serif;
 }
