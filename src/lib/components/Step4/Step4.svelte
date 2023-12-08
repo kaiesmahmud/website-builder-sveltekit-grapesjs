@@ -29,7 +29,7 @@
         </div>
         <button 
         on:click={handleStepNext}
-        class="p-3 my-3 rounded bg-green-500/50 hover:bg-green-600 font-bold text-center transition-all ease-in mr-5"
+        class="p-3 my-3 rounded text-base bg-green-500/50 hover:bg-green-600 font-bold text-center transition-all ease-in mr-5"
         >Next Step</button>
     </div>
     <div class="bg-black/20 p-2 m-2">
