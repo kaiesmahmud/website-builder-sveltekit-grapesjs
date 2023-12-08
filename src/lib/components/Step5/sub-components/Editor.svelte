@@ -1,5 +1,5 @@
 <script>
-	import { classInfo1, classTrainer1, header1, intro1 } from './editor_blocks_components.js';
+	import { classInfo1, classTrainer1, header1, intro1, journey1 } from './editor_blocks_components.js';
 	import { styleManager, scripts } from './editor_utils.js';
     import 'grapesjs/dist/css/grapes.min.css';
     import './editor.css'
@@ -14,7 +14,7 @@
             container : '#gjs',
             plugins:[
                 gjsBlocksBasic,
-                tailwindComponent
+                // tailwindComponent
             ],
             storageManager: false,
             pluginOpts:{
@@ -66,11 +66,11 @@
                     content: classTrainer1,
                     },
                     {
-                    id: 'list-section',
-                    label: 'List Section',
+                    id: 'journey-section-1',
+                    label: '<img src="./journey1.jpeg"  >Journey-1',
                     category: 'Frame',
-                    attributes: { class: 'fa fa-list' },
-                    content: "<div>This is a Header </div>",
+                    // attributes: { class: 'fa fa-list' },
+                    content: journey1,
                     },
                 ],
             },
