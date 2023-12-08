@@ -77,7 +77,7 @@ export let UserAllData = writable({
     coursesStyle: "",
     homeBodyHtml: "",
     footerData: "",
-    allPagesData: "",
+    allPagesData: [],
 })
 /*AllPagesData --> [
     {
