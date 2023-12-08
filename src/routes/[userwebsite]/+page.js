@@ -1,7 +1,10 @@
-export const load = async({params,fetch}) => {
-    console.log(params.userwebsite)
 
+export const load = async(events) => {
+
+    const {params} = events;
+    const {userwebsite} = params ;
     return {
-        viewUserWebsiteName: params.userwebsite
+        viewUserWebsiteName: userwebsite,
+        viewUserWebsiteNameurl: "/"+userwebsite
     }
 }
