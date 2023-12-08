@@ -15,7 +15,7 @@
         <a href={`/${$UserAllData?.websiteName}`} class=" text-white/70 hover:text-white/90">
             /{$UserAllData?.websiteName}
         </a>
-        <button on:click={()=>{handleEditPageName($UserAllData?.websiteName)}} class="rounded bg-sky-500 hover:bg-sky-600 p-1 px-3">Edit</button>
+        <button on:click={()=>{handleEditPageName("/"+$UserAllData?.websiteName)}} class="rounded bg-sky-500 hover:bg-sky-600 p-1 px-3">Edit</button>
      </div>
 
     <!-- ---------Others page-------------- -->
@@ -29,7 +29,7 @@
                 <a href={`/${$UserAllData?.websiteName}/${$UserAllData?.navbarData[item.id].name}`} class=" text-white/70 hover:text-white/90">
                     /{$UserAllData?.websiteName}/{$UserAllData?.navbarData[item.id].name}
                 </a>
-                <button on:click={()=>{handleEditPageName($UserAllData?.navbarData[item.id].name)}} class="rounded bg-sky-500 hover:bg-sky-600 p-1 px-3">Edit</button>
+                <button on:click={()=>{handleEditPageName("/"+$UserAllData?.websiteName+"/"+$UserAllData?.navbarData[item.id].name)}} class="rounded bg-sky-500 hover:bg-sky-600 p-1 px-3">Edit</button>
 
              </div>
         {/if}
@@ -44,7 +44,7 @@
                     <a href={`/${$UserAllData?.websiteName}/${$UserAllData?.navbarData[subItem.id].name}`} class=" text-white/70 hover:text-white/90">
                         /{$UserAllData?.websiteName}/{$UserAllData?.navbarData[subItem.id].name}
                     </a>
-                    <button on:click={()=>{handleEditPageName($UserAllData?.navbarData[subItem.id].name)}} class="rounded bg-sky-500 hover:bg-sky-600 p-1 px-3">Edit</button>
+                    <button on:click={()=>{handleEditPageName("/"+$UserAllData?.websiteName+"/"+$UserAllData?.navbarData[subItem.id].name)}} class="rounded bg-sky-500 hover:bg-sky-600 p-1 px-3">Edit</button>
 
                 </div>
                 {/if}
