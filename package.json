@@ -20,6 +20,8 @@
 	"type": "module",
 	"dependencies": {
 		"@tailwindcss/forms": "^0.5.7",
+		"grapesjs": "^0.21.7",
+		"grapesjs-blocks-basic": "^1.0.2",
 		"svelte-dnd-action": "^0.9.33",
 		"svelte-file-dropzone": "^2.0.2"
 	}
