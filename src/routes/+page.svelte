@@ -1,4 +1,5 @@
 <script>
+	import Editor from './../lib/components/Step5/sub-components/Editor.svelte';
    import { ShowProcess } from '../lib/store/store';
    import Sidebar from '../lib/components/Sidebar.svelte';
    import Step1 from '../lib/components/Step1/Step1.svelte';
@@ -13,7 +14,7 @@
 	
 </script>
 
-
+<!-- <Editor/> -->
 <div class="flex flex-col md:flex-row  gap-5 w-[100vw] px-2">
    <Sidebar/>
    <main class="w-full md:min-w-[73%] bg-white/10 rounded-lg">
